@@ -1,0 +1,91 @@
+.parallax-window
+      {
+        height: 95vh;
+        width: 100%;
+        background:linear-gradient(to right bottom,rgba(255, 183,77,0.8),rgba(30,136,229,0.8),rgba(7, 51,240,0.8)), url('../images/cover.jpeg');
+        background-size: cover;
+        background-attachment: fixed;
+        display: table;
+        background-position: top;
+        clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
+       
+      
+        
+      }
+      *
+      {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .heading-format
+      {
+        
+        color: #fff;
+        font-weight: 600;
+      }
+      .marT
+      {
+        margin-top:100px;
+      }
+      .pad-eigthy
+      {
+        padding: 80px;
+      }
+      .white-text
+      {
+        color: #fff;
+
+      }
+      .pcn-par
+      {
+        font-size: 1.3em;
+        padding:30px 0px 10px 0px;
+        letter-spacing: 1px;
+
+
+      }
+      .pcn-des
+      {
+        font-size: 0.9em;
+      }
+      .grey-text
+      {
+        color: #424242;
+      }
+      .pcn-icon
+      {
+        
+        right: : 50%;
+        transform: translateX(45%);
+      }
+      .heading-main
+      {
+        letter-spacing: 12px;
+        display: block; 
+        font-size: 62px;
+      }
+      .heading-sub
+      {
+        display: block;
+       font-size: 20px;
+       font-weight: 600;
+        letter-spacing: 10.4px;
+      }
+
+        .deal-heading
+        {
+          color: #1976d2 ;
+          letter-spacing: 12px;
+          padding: 40px;
+          font-size: 45px;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
+        @media screen and (max-width: 570px)
+        {
+          .deal-heading
+          {
+            font-size: 30px;
+          }
+        }
